@@ -1,0 +1,45 @@
+body,
+body {
+  margin: 0;
+  padding: 0;
+}
+header {
+  display: block;
+  width: 100%;
+}
+.banner {
+  text-align: center;
+  background-color: black;
+}
+.banner img {
+  height: 300px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  list-style-type: none;
+  background-color: #464646;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #0a0a0a;
+}
+@media (max-width: 700px) {
+  header nav ul li {
+    float: none;
+    width: 100%;
+  }
+}

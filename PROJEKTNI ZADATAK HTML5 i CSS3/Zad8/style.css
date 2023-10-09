@@ -1,0 +1,155 @@
+body,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+header {
+  display: block;
+  width: 100%;
+}
+.banner {
+  text-align: center;
+  background-color: black;
+}
+.banner img {
+  height: 300px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  list-style-type: none;
+  background-color: #464646;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #0a0a0a;
+}
+h1 {
+  margin: 10px;
+  font-size: 3em;
+}
+figure {
+  padding: 1px;
+  float: left;
+  border: 5px solid gray;
+}
+main p {
+  letter-spacing: 1px;
+  margin: 20px;
+}
+main img {
+  width: 100%;
+}
+figcaption {
+  font-size: 22px;
+}
+footer {
+  background-color: #464646;
+  clear: both;
+  padding: 10px;
+}
+footer p {
+  color: white;
+  text-align: center;
+  margin: 5px;
+}
+footer img {
+  width: 20px;
+}
+section article {
+  width: 100%;
+}
+section article img {
+  width: 12%;
+  float: left;
+  margin: 10px;
+  padding: 5px;
+}
+section article h2 {
+  width: 50%;
+  font-size: 20px;
+  color: rgb(27, 27, 114);
+  font-weight: bold;
+  padding: 15px 0px;
+}
+section article a {
+  text-decoration: none;
+}
+section article a:hover {
+  text-decoration: none;
+}
+section article p {
+  color: black;
+}
+section article time {
+  margin-top: 50px;
+}
+hr {
+  margin: 15px;
+  clear: both;
+}
+
+.news-list figure {
+  width: 10%;
+  float: left;
+  margin: 30px;
+  padding: 10px;
+}
+.news-list figcaption {
+  text-align: center;
+  font-size: 100%;
+}
+.highlight-text {
+  font-weight: bold;
+}
+.podnaslov {
+  color: rgb(5, 5, 144);
+  margin-left: 20px;
+}
+.galerija-lista figure {
+  padding: 20px;
+  margin: 15px;
+  float: left;
+  width: 22%;
+  border: 1px solid black;
+}
+.galerija-lista figcaption {
+  font-size: 90%;
+  height: 40px;
+  text-align: center;
+}
+@media (max-width: 700px) {
+  header nav ul li {
+    float: none;
+    width: 100%;
+  }
+  figure {
+    width: 80%;
+  }
+  section article img {
+    width: 90%;
+    margin: 10px;
+  }
+  section article h2 {
+    width: 90%;
+    margin-left: 15px;
+  }
+  .news-list figure {
+    width: 90%;
+    float: left;
+  }
+}
