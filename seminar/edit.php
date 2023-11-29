@@ -76,7 +76,7 @@
                   <a id="MainPage" class="link-light">My profile</a>
                   <div class="dropdown-content">
                     <a href="profile.php">Account</a>
-                    <a id="MainPage">Create Article</a>
+                    <a href="create.php">Create Article</a>
                     <a href="signout.php">Log out</a>
                   </div>
                 </li>
